@@ -1,0 +1,20 @@
+\documentclass[../main.tex]{subfiles}
+\begin{document}
+
+
+\tpc{!ht}{[x=5cm, y=5cm]
+\node[draw,circle, inner sep=1pt] (o) at (0,0) {O};
+\draw (o) ellipse (2cm and 1cm);
+\draw[dashed] (o)--(2,0);
+\node (prop) at (2,2) {
+$(\frac{x}{a})^2+(\frac{y}{b})^2=1$,
+$x=a\cos{\theta},\ y=b\sin{\theta}$,
+$PF_1+PF_2=2a$,
+$f=\sqrt{a^2-b^2}$,
+$e=\epsilon=\sqrt{\frac{a^2-b^2}{a^2}}=\sqrt{1-(\frac{b}{a})^2}=\frac{f}{a}$,
+$A=\pi ab$
+};
+
+}{(-1,-2)}{7cm}{Ellisse: basic.}
+
+\end{document}
